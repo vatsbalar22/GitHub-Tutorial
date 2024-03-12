@@ -26,3 +26,14 @@
 
 14 create new develop branch : git checkout -b develop(name of child branch) , git checkout main(for going to main branch)
 
+15 merge develop branch into main : git merge develop (type into main branch)
+
+16 check all branches : git branch 
+
+17 check commit of all branches : git branch -v
+
+18 check merged branches : git branch --merged , git branch --no-merged
+
+19 delete branch : git branch -d name(if not merged then type D)
+
+20 push sub branch : git push origin name of branch
