@@ -1,0 +1,28 @@
+1 create repo on local : git init , git status
+
+2 add all file in repo : git add --a 
+
+3 commit all file : git commit -m "note"
+
+4 delete repo to end : rm -rf .git 
+
+5 download and clone repo : git clone path of repo
+
+6 present working dir : pwd , move to another dir : cd name of dir 
+
+7 check changes : git log then press q
+
+8 for create gitignore file : touch .gitignore (in this folder add file name)
+
+9 check diff between stage file and unstage file : git diff
+
+10 check diff between commit : git diff --staged
+
+11 rename file : git mv olf_file_name new_f_name 
+
+12 for show changes : git log -p (summary : git log --stat)
+
+13 create short command with alias : git config --global alias.cm(short form) commit(that commad)
+
+14 create new develop branch : git checkout -b develop(name of child branch) , git checkout main(for going to main branch)
+
